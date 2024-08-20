@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Roboto:wght@900&display=swap');
+* {
+    margin: 0px; 
+    padding: 0px;
+    box-sizing: border-box;
+    .roboto-black {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+}
+section {
+    min-height: 95vh;
+    background-image: linear-gradient(black, rgb(227, 35, 35));
+    background-image: url("https://img.freepik.com/free-photo/blue-mountains-famous-tourism-scenery-lijiang_1417-1143.jpg?t=st=1724094022~exp=1724097622~hmac=b56ccb89e2001db9308d0972df872c918b201e095dd8d91583fdb64f6a3f08e2&w=900");
+    background-size: cover;
+} 
+.container{
+    width: 100%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: rgba(80, 180, 41, 0.933);
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    align-items: baseline;
+    padding: 0px.5px;
+}
+nav ul li a {
+    color:#7b3434;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: px;
+    padding: 3px 6px;
+}
+nav ul li a hover{
+ background-color: rgb(218, 63, 146);
+    transition: 0.5s ease;
+}
+nav ul lin.active{
+    background-color:rgb(255, 205, 232);
+}
+.article{
+    width:50%;
+    margin: auto;
+    text-align: center;
+    transform: translatey(25vh);
+}
+.article h1{
+    font-size :18px;
+    color:rgb(2, 5, 5);
+    line-height:1.5;
+    margin-bottom: 50px;
+}
+.article .btn{
+    color:blueviolet;
+    padding:12px25px;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+
+}
